@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>490</width>
+    <height>640</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frameEditText">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>391</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <widget class="QLineEdit" name="cell_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>10</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_4">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>10</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_5">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>10</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_6">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>10</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_7">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>10</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_8">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>10</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_9">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>10</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_11">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_12">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>50</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_13">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>50</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_14">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>50</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_15">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>50</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_16">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>50</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_17">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>50</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_18">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>50</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_20">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>90</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_21">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>90</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_22">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>90</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_23">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>90</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_24">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>90</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_25">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>90</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_26">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>90</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_27">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>90</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_28">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_29">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>140</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_30">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>140</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_31">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>140</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_32">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>140</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_33">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>140</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_34">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>140</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_35">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>140</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_36">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>140</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_37">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_38">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>180</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_39">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>180</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_40">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>180</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_41">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>180</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_42">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>180</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_43">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>180</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_44">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>180</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_45">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>180</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_46">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_47">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>220</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_48">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>220</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_49">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>220</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_50">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>220</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_51">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>220</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_52">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>220</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_53">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>220</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_54">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>220</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_55">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_56">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>270</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_57">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>270</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_58">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>270</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_59">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>270</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_60">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>270</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_61">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>270</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_62">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>270</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_63">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>270</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_64">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>310</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_65">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>310</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_66">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>310</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_67">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>310</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_68">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>310</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_69">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>310</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_70">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>310</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_71">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>310</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_72">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>310</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_73">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_74">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>350</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_75">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>350</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_76">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>350</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_77">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>350</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_78">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>350</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_79">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>350</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_80">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>350</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cell_81">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>350</y>
+       <width>31</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>1</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>460</y>
+      <width>211</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="labelError">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="button_resolve">
+         <property name="text">
+          <string>Risolvi</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_step">
+         <property name="text">
+          <string>Step</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="button_reset">
+         <property name="text">
+          <string>Azzera</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>490</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
